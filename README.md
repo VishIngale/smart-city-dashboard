@@ -1,12 +1,50 @@
-# React + Vite
+Smart City Dashboard – Real-Time Urban Monitoring (Coherence'25 Hackathon)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web application built for the Coherence'25 Hackathon under the domain of Web/App Development – Smart City.
+This intelligent dashboard provides real-time data visualization and AI-driven insights to support smart city initiatives, helping tackle urban challenges such as traffic congestion, pollution, water management, and energy efficiency.
 
-Currently, two official plugins are available:
+Problem Statement:
+Urban areas are struggling with issues like traffic jams, pollution, and mismanaged utilities. The aim of this project is to design a Smart City Dashboard that integrates and visualizes real-time data collected from IoT sensors, open data APIs, and user feedback, allowing authorities and citizens to take data-driven actions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Key Features:
+📊 Real-Time Data Visualization
+Tracks and displays live metrics for:
+Air Quality
+Traffic Congestion
+Water Levels
+Energy Usage
 
-## Expanding the ESLint configuration
+🗺️ Google Maps API Integration
+Visual mapping of traffic conditions and emergency routes for enhanced situational awareness.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔔 AI-Driven Alert System
+Intelligent notifications and alerts for citizens and administrators based on predictive data analysis.
+
+📱 Responsive Web + Mobile UI
+Optimized for both desktop and mobile devices with fast, real-time updates.
+
+Tech Stack:
+⚙ Backend
+Python (FastAPI)
+PostgreSQL (Async)
+MQTT (Paho for sensor data handling)
+SQLAlchemy (Async ORM)
+
+🖥 Frontend:
+React.js (Vite)
+Material UI (MUI)
+Chart.js (Data visualization)
+Leaflet & React-Leaflet (Maps & location data)
+Axios (API communication)
+
+Impact:
+By providing transparent access to real-time environmental and urban data, this dashboard empowers:
+City administrators to make faster, data-informed decisions.
+Citizens to stay informed and respond quickly in emergencies.
+A foundation for building smarter, more sustainable cities.
+
+Team:
+1.Vishakha Ingale
+2.Mayuri Datir
+3.Shrushti Khemnar
+4.Ishwari Kokane
